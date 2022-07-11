@@ -1,0 +1,169 @@
+/* @import url('bootstrap.min.css'); */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Kanit:wght@300&family=Zilla+Slab+Highlight:wght@700&display=swap");
+
+/* font-family: 'Zilla Slab Highlight', cursive;*/
+/* font-family: 'Fira Sans', sans-serif; */
+/* font-family: 'Kanit', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+.navbar {
+  /* color: white; */
+  font-size: 19px;
+}
+.navbar-brand {
+  font-family: "Zilla Slab Highlight", cursive;
+  font-size: 28px;
+}
+.navbar-nav {
+  margin: auto;
+}
+.navbar .btn {
+    /* text-decoration: none;
+    list-style: none; */
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat scroll center scroll;
+  -webkit-backdrop-size: cover;
+  background-size: cover;
+}
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+}
+.carousel-caption {
+  bottom: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.carousel-caption h5 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.carousel-caption p {
+  font-size: 22px;
+  top: 2rem;
+}
+.slider-btn {
+  margin-top: 30px;
+}
+.slider-btn .btn {
+  border-radius: 4px;
+  padding: 0.8rem 1.5rem;
+  margin: 0 0.3rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.slider-btn .btn-1 {
+  background-color: rgb(249, 218, 14);
+  color: white;
+}
+.slider-btn .btn-1:hover {
+  border-color: rgb(249, 218, 14);
+  background: none;
+  color: white;
+}
+.slider-btn .btn-2 {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+}
+.slider-btn .btn-2:hover {
+  border-color: rgb(255, 255, 255);
+  background: none;
+  color: rgb(249, 218, 14);
+}
+.about-section{
+  padding: 40px 0px;
+  align-items: center;
+  justify-content: center;
+}
+.about-section h2,
+.services-section h2,
+.contact-section h2,
+.packages-section h2
+{
+  font-size: 40px;
+  position: relative;
+  margin-bottom: 60px;
+  text-align: center;
+
+}
+.about-section h2 span,
+.services-section h2 span,
+.contact-section h2 span,
+.packages-section h2 span
+{
+  font-weight: 700;
+  border-bottom: 2px solid rgb(249, 218, 14);
+  padding: 0 20px 5px;
+  display: inline-block;
+}
+.about-section figure{
+  margin: 0;
+}
+.about-section figure img{
+  width: 520px;
+  padding: 10px;
+  border: 1px solid #200404;
+}
+.services-section{
+  padding: 60px 0 40px;
+  background: #c1b7001f;
+}
+.service-card{
+  margin-bottom: 40px;
+  height: calc(100% - 40%);
+}
+.services-section .service-card img{
+  width: 320px;
+  height: 250px;
+}
+
+/* Contact */
+.contact-section{
+  padding: 100px 0;
+}
+/* input, textarea{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  line-height: 30px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  resize: none;
+  background: #c1b7001f;
+} */
+.packages-section{
+  padding: 40px 0;
+}
+.packages-section .card{
+  margin: auto;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-section{
+  background: #c1b7001f;
+}
+.footer-section .logo{
+  width: 45px;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="css/login.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header Content  -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-black">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"> TravelShots</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 px-3 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packages">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <a class="btn btn-outline-primary" href="login.html" role="button" type="submit">Login</a>
+                    <a class="btn btn-outline-success" href="signup.html" role="button" type="submit">
+                        Signup
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Section -->
+    <div class="container mt-4 pt-5">
+        <form class="form-signin">
+            <div class="text-center pt-5 mt-5 mb-2">
+                <!-- <img
+              class="mb-4"
+              src="../../assets/brand/bootstrap-solid.svg"
+              alt=""
+              width="72"
+              height="72"
+            /> -->
+                <h1 class="h3 mb-1 font-weight-normal">Sign up</h1>
+                <p>
+                    Works in latest Chrome, Safari, and Firefox.</a>
+                </p>
+            </div>
+            <div class="form-label-group">
+
+                <div class="row g-3 pt-2">
+                    <div class="col-md-6">
+                        <label for="FirstName" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="FirstName" />
+                    </div>
+                    <div class="col-md-6">
+                        <label for="LastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="LastName" />
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" />
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4" />
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" />
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor" />
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity" />
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip" />
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck" />
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/d43b4adf01.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
